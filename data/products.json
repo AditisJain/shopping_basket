@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Beans",
+        "price": 0.5
+    },
+    {
+        "name": "Coke",
+        "price": 0.7
+    },
+    {
+        "name": "Onions",
+        "price": 0.29
+    },
+    {
+        "name": "bananas",
+        "price": 0.68
+    },
+    {
+        "name": "Shampoo",
+        "price": 2.5
+    },
+    {
+        "name": "schwepps",
+        "price": 1.5
+    },
+    {
+        "name": "lemonade",
+        "price": 1
+    },
+    {
+        "name": "appleteiser",
+        "price": 2.75
+    },
+    {
+        "name": "gingerale",
+        "price": 2.5
+    },
+    {
+        "name": "Chocolate",
+        "price": 3.49
+    }
+]

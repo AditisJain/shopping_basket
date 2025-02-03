@@ -1,0 +1,59 @@
+[
+    {
+        "type": "buy_x_for_price_of_y",
+        "products": [
+            "beans"
+        ],
+        "x": 3,
+        "y": 2
+    },
+    {
+        "type": "buy_x_for_fixed_price",
+        "products": [
+            "coke"
+        ],
+        "x": 2,
+        "y": 1
+    },
+    {
+        "type": "percent_off",
+        "products": [
+            "shampoo"
+        ],
+        "percent": 10.0
+    },
+    {
+        "type": "member_discount",
+        "products": [
+            "appleteiser",
+            "schwepps"
+        ],
+        "percent": 20.0
+    },
+    {
+        "type": "member_discount",
+        "products": [
+            "chocolate"
+        ],
+        "percent": 10.0
+    },
+    {
+        "type": "buy_x_for_fixed_price",
+        "products": [
+            "chocolate"
+        ],
+        "x": 3,
+        "y": 10
+    },
+    {
+        "type": "any_x_from_set_at_y_price",
+        "products": [
+            "appleteiser",
+            "schwepps",
+            "lemonade",
+            "gingerale"
+        ],
+        "x": 3,
+        "y": 5
+    }
+]

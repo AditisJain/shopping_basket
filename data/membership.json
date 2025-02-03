@@ -1,0 +1,12 @@
+[
+    {
+        "membership_id": "12345",
+        "valid_from": "01-01-2025",
+        "expiring": "01-01-2026"
+    },
+    {
+        "membership_id": "67890",
+        "valid_from": "01-02-2025",
+        "expiring": "01-02-2026"
+    }
+]
