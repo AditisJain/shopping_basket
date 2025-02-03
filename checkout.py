@@ -74,9 +74,11 @@ class PricingRules:
                 # Find all eligible items from the basket
                 matched_items = {p: basket_items[p] for p in basket_items if p in set_products}
                 total_matched_quantity = sum(matched_items.values())
+                total_matched_price = sum(self.products[p] * matched_items[p] for p in matched_items) 
+
 
                 # If we have enough for at least one set
-                if total_matched_quantity >= set_quantity:
+                if total_matched_quantity >= set_quantity and total_matched_price > set_price:
                     sorted_items = sorted(matched_items.items(), key=lambda x: self.products[x[0]])  # Sort by price
                     full_sets = total_matched_quantity // set_quantity # Number of full sets
                     leftover_items = total_matched_quantity % set_quantity  # Items that don’t fit into a full set
