@@ -28,6 +28,8 @@ To run the admin script, use the following command (adjust the path based on you
 
 > **Note:** If incorrect credentials are entered, the program will terminate. Please restart it and try again.
 
+> **Important:** If you are entering a discount for a product that does not exist, you must first add the product before assigning a discount.
+
 ## Customer Functionality (`checkout.py`)
 Customers can add products to their basket and avail of applicable discounts.
 
@@ -69,10 +71,11 @@ The system includes six types of pricing discounts:
 - **No two discounts are combined**. The highest applicable discount is applied.
 - Example: If a product qualifies for both a "3 for 5" deal and a "20% off for members" deal, only the greater discount applies.
 
+![image](receipt.png)
+
 ## Limitations & Future Enhancements
 - Additional input validations can be added for better error handling.
 - The admin panel can be improved to allow removing and updating products/discounts.
 - Checkout can be enhanced with automatic **receipt numbers** and a **purchase history** stored in `purchases.json`.
 - Implementing a more robust UI/CLI for smoother interactions.
-
 
